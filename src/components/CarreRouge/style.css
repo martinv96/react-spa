@@ -1,0 +1,7 @@
+.carreR {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 150px;
+}

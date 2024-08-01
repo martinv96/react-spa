@@ -1,6 +1,7 @@
 import './style.css';
 
 import BsTopNav from '../../components/TopNav/BsTopNav';
+import CarreRouge from '../../components/CarreRouge';
 
 function HomePage() {
 
@@ -14,6 +15,10 @@ function HomePage() {
                         <BsTopNav />
                     
                 </header>
+            </div>
+
+            <div className='container-struct'>
+                <CarreRouge />
             </div>
         </div>
     )
