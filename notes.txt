@@ -1,0 +1,50 @@
+creer react dans un dossier :
+npx create-react-app nom_de_l_app
+
+
+demarrer ract: npm start
+
+npm run build
+
+NE PAS MODIFIER !!!! package-lock.json
+
+on a toujours un package.json, c'est la liste des dépendances, la liste de ce dois comprendre le dossier
+
+dependencies:
+        react dom permet de gerer le dom virtuel
+
+scripts : permet d connaitre les commandes de react:
+
+        start: demarrer react
+        build : creer un dossier build, recupère le code source pour qu'il puisse etre utiliser. 
+        test : verifier les services
+        eject : sort react du projet
+
+
+
+
+
+
+users genere une reaction
+
+
+
+commment simuler un fetch : on creer le fichier api data js avec toutes les données; 
+et un autre user services qui recupere les données en json;
+ puis sous formes de tableau dans user model js.
+dans app js, on creer un objet de type service avec deux methodes const userService et UserData. On place les deux methodes dans la const users et setUsers.
+
+uerData recupere les données et les mets dans users.
+
+On a a fin un tableau qui nous donne les données des users.
+
+
+
+
+        useEffect ne s'execute que lorsque que useState est executé
+
+
+
+
+SPA mauvais pour le rélérencement car il n'y a qu'une seule URL
+

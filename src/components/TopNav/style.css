@@ -1,0 +1,27 @@
+.main-menu {
+    list-style: none;
+    /* enleve les puces */
+}
+
+.main-menu li a.active {
+    color: rgb(133, 201, 33);
+}
+
+.main-menu li {
+    display: inline;
+    /* les uns a coté des autres */
+    margin-left: 25px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    /* enleve le soulignement */
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.main-menu li a:hover {
+    color:greenyellow
+}
+
